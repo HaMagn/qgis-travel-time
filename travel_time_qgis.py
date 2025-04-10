@@ -3,7 +3,7 @@ import json
 from qgis.core import QgsVectorLayer, QgsProject
 
 # Replace with your actual API key
-client = openrouteservice.Client(key="your_real_api_key")
+client = openrouteservice.Client(key="5b3ce3597851110001cf6248639b38838b734dabaccb60bbc0c261aa")
 
 start = (-10.8761395846085, 9.120508816411458)  # (lon, lat)
 end = (-10.9490956705478, 9.196093811704191)
